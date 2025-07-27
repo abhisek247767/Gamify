@@ -1,5 +1,9 @@
 
+<div align="center">
+
 # 🕹️ GAMIFY — Turn Any Goal into a Game
+
+</div>
 
 <div align="center">
 
@@ -10,12 +14,7 @@
 ![Discord.js](https://img.shields.io/badge/Bot-Discord.js-5865F2?style=for-the-badge&logo=discord&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-**🎯 An open-source platform to gamify productivity, collaboration, and community engagement.**
-
-[![Stars](https://img.shields.io/github/stars/gollabharath/gamify?style=social)](https://github.com/gollabharath/gamify/stargazers)
-[![Forks](https://img.shields.io/github/forks/gollabharath/gamify?style=social)](https://github.com/gollabharath/gamify/forks)
-[![Issues](https://img.shields.io/github/issues/gollabharath/gamify)](https://github.com/gollabharath/gamify/issues)
-[![Pull Requests](https://img.shields.io/github/issues-pr/gollabharath/gamify)](https://github.com/gollabharath/gamify/pulls)
+### **🎯 An open-source platform to gamify productivity, collaboration, and community engagement.**
 
 </div>
 
@@ -73,27 +72,6 @@
 - 🎁 **Reward Store** — Members redeem points for real or virtual rewards  
 - 🖥️ **Web Dashboard** — Full-featured dashboard for managing events  
 - 🤖 **Discord Bot** — Seamless interaction with Discord for members
-
----
-
-## 🖼️ Screenshots
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center">
-<img src="https://via.placeholder.com/400x250.png?text=Web+Dashboard" width="100%">
-<br><i>📊 Web Dashboard</i>
-</td>
-<td align="center">
-<img src="https://via.placeholder.com/400x250.png?text=Discord+Bot" width="100%">
-<br><i>🤖 Discord Bot Integration</i>
-</td>
-</tr>
-</table>
-
-</div>
 
 ---
 
@@ -214,10 +192,12 @@ We love contributions from the community! To contribute:
 ## 📄 License
 
 This project is licensed under the **MIT License**.  
-See the [LICENSE](https://github.com/gollabharath/gamify/blob/main/LICENSE) file for details.
 
 <div align="center">
 
-![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://github.com/gollabharath/gamify/blob/main/LICENSE)
 
 </div>
+
+
+[//]: # (README.md maintenance update - v1)
