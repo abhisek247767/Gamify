@@ -167,7 +167,7 @@ API_URL=http://localhost:5000
 cd server && npm run dev
 
 # Terminal 2
-cd client && npm run dev
+cd client && npm start
 
 # Terminal 3
 cd bot && node index.js
