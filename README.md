@@ -163,13 +163,13 @@ API_URL=http://localhost:5000
 #### In separate terminals:
 
 ```bash
-# Terminal 1
+# Terminal 1 (For Backend)
 cd server && npm run dev
 
-# Terminal 2
-cd client && npm start
+# Terminal 2 (For Frontend)
+cd client && npm run dev
 
-# Terminal 3
+# Terminal 3 (For Bot)
 cd bot && node index.js
 ```
 
