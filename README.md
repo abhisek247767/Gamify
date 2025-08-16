@@ -83,8 +83,6 @@
 
 <div align="center">
 
-<br>
-
 <svg xmlns="http://www.w3.org/2000/svg" width="550" height="80">
   <rect width="550" height="80" rx="20" fill="#0000"/>
   <text x="50%" y="50%" fill="#fff" font-size="24" font-family="Comic Sans MS, sans-serif" font-weight="bold" dominant-baseline="middle" text-anchor="middle">
