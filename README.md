@@ -1,4 +1,3 @@
-
 <div align="center">
 
 # 🕹️ GAMIFY — Turn Any Goal into a Game
@@ -23,7 +22,7 @@
 
 ## 💡Concept Note
 
->Click [here](./Concept_Note.md) to learn more about the project. 
+> Click [here](./Concept_Note.md) to learn more about the project.
 
 ---
 
@@ -62,23 +61,53 @@
 
 ## 💡 Why Choose Gamify?
 
-- 🆓 **Free & Open-Source** — MIT licensed and community-driven  
-- 🛠️ **Fully Self-Hostable** — Complete control over your data and deployment  
-- 🌍 **Multi-Platform** — Web dashboard and Discord integration  
-- 🧱 **Modular Architecture** — Easy to customize and extend  
-- 🎮 **Gamify Anything** — From study groups to corporate teams  
+- 🆓 **Free & Open-Source** — MIT licensed and community-driven
+- 🛠️ **Fully Self-Hostable** — Complete control over your data and deployment
+- 🌍 **Multi-Platform** — Web dashboard and Discord integration
+- 🧱 **Modular Architecture** — Easy to customize and extend
+- 🎮 **Gamify Anything** — From study groups to corporate teams
 - 🧑‍🤝‍🧑 **Built for Teams & Communities** — Role-based collaboration baked in
 
 ---
 
 ## 🚀 Core Features
 
-- 🎯 **Event Creation** — Define your own events, tasks, and currency system  
-- 👥 **Role-Based Permissions** — Owners, Admins, Moderators, Members  
-- ✅ **Task Management** — Admins create tasks, moderators verify them  
-- 🎁 **Reward Store** — Members redeem points for real or virtual rewards  
-- 🖥️ **Web Dashboard** — Full-featured dashboard for managing events  
+- 🎯 **Event Creation** — Define your own events, tasks, and currency system
+- 👥 **Role-Based Permissions** — Owners, Admins, Moderators, Members
+- ✅ **Task Management** — Admins create tasks, moderators verify them
+- 🎁 **Reward Store** — Members redeem points for real or virtual rewards
+- 🖥️ **Web Dashboard** — Full-featured dashboard for managing events
 - 🤖 **Discord Bot** — Seamless interaction with Discord for members
+
+---
+
+<div align="center">
+
+<br>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="550" height="80">
+  <rect width="550" height="80" rx="20" fill="#0000"/>
+  <text x="50%" y="50%" fill="#fff" font-size="24" font-family="Comic Sans MS, sans-serif" font-weight="bold" dominant-baseline="middle" text-anchor="middle">
+    🎉 Project Events & Highlights
+  </text>
+</svg>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="4">
+  <defs>
+    <linearGradient id="rgbLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="hsl(185, 53%, 55%)"/>
+      <stop offset="100%" stop-color="hsl(0, 73%, 55%)"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="100%" height="4" fill="url(#rgbLine)" rx="2" ry="2"/>
+</svg>
+
+<br>
+
+<img src="https://github.com/user-attachments/assets/06b414f8-fcc4-440a-9ab1-277673df14a7" alt="Events Heading" style="border-radius:20px;"/>
+<img src="https://github.com/user-attachments/assets/a6eb171a-6815-4375-a8e7-b606fab14de6" alt="Events Heading" style="border-radius:20px;"/>
+
+</div>
 
 ---
 
@@ -186,10 +215,10 @@ cd bot && node index.js
 
 We love contributions from the community! To contribute:
 
-1. Fork the repository  
-2. Create a new branch (`git checkout -b feature/your-feature`)  
-3. Commit your changes (`git commit -m 'Add some feature'`)  
-4. Push to the branch (`git push origin feature/your-feature`)  
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -m 'Add some feature'`)
+4. Push to the branch (`git push origin feature/your-feature`)
 5. Open a Pull Request
 
 > For major changes, please open an issue first to discuss what you’d like to change.
@@ -198,11 +227,10 @@ We love contributions from the community! To contribute:
 
 ## 📄 License
 
-This project is licensed under the **MIT License**.  
+This project is licensed under the **MIT License**.
 
 <div align="center">
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://github.com/gollabharath/gamify/blob/main/LICENSE)
 
 </div>
-
