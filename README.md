@@ -13,10 +13,17 @@
 ![MongoDB](https://img.shields.io/badge/Database-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Discord.js](https://img.shields.io/badge/Bot-Discord.js-5865F2?style=for-the-badge&logo=discord&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Contributors](https://img.shields.io/github/contributors-anon/GollaBharath/GollaBharath?style=for-the-badge)
 
 ### **🎯 An open-source platform to gamify productivity, collaboration, and community engagement.**
 
 </div>
+
+---
+
+## 💡Concept Note
+
+>Click [here](./Concept_Note.md) to learn more about the project. 
 
 ---
 
@@ -199,5 +206,3 @@ This project is licensed under the **MIT License**.
 
 </div>
 
-
-[//]: # (README.md maintenance update - v1)
