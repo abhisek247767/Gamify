@@ -92,15 +92,7 @@
   </text>
 </svg>
 
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="4">
-  <defs>
-    <linearGradient id="rgbLine" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="hsl(185, 53%, 55%)"/>
-      <stop offset="100%" stop-color="hsl(0, 73%, 55%)"/>
-    </linearGradient>
-  </defs>
-  <rect x="0" y="0" width="100%" height="4" fill="url(#rgbLine)" rx="2" ry="2"/>
-</svg>
+<image src="https://github.com/user-attachments/assets/2697ede8-aa67-4b57-b913-edf6de969249">
 
 <br>
 
