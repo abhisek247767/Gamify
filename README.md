@@ -94,8 +94,8 @@
 
 <br>
 
-<img src="https://github.com/user-attachments/assets/06b414f8-fcc4-440a-9ab1-277673df14a7" alt="Events Heading" style="border-radius:20px;"/>
-<img src="https://github.com/user-attachments/assets/a6eb171a-6815-4375-a8e7-b606fab14de6" alt="Events Heading" style="border-radius:20px;"/>
+<a href="https://gssoc.girlscript.tech/"><img src="https://github.com/user-attachments/assets/06b414f8-fcc4-440a-9ab1-277673df14a7" alt="Events Heading" style="border-radius:20px;"/></a>
+<a href="https://www.osconnect.org/"><img src="https://github.com/user-attachments/assets/a6eb171a-6815-4375-a8e7-b606fab14de6" alt="Events Heading" style="border-radius:20px;"/></a>
 
 </div>
 
