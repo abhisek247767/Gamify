@@ -22,7 +22,7 @@ export function LoginForm() {
     try {
       setIsLoadingLocal(true);
       const { success, message } = await login(formData);
-      if (success) navigate("/dashboard");
+      if (success) navigate("/home");
       else setError(message || "Login failed");
     } catch {
       setError("An unexpected error occurred");
@@ -152,7 +152,7 @@ export function RegisterForm() {
         email: formData.email,
         password: formData.password,
       });
-      if (success) navigate("/dashboard");
+      if (success) navigate("/home");
       else setError(message || "Registration failed");
     } catch {
       setError("An unexpected error occurred");
