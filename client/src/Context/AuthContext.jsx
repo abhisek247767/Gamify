@@ -2,7 +2,7 @@ import { createContext, useContext, useEffect, useMemo, useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5001";
 
 const api = axios.create({
   baseURL: API_URL,
@@ -58,7 +58,7 @@ export const AuthProvider = ({ children }) => {
         return;
       }
       applyAuthHeader(active);
-      const res = await api.get("/api/protected");
+      const res = await api.get("/api/users/protected");
       setUser(res.data.user);
     } catch (e) {
       // Any failure → logout (clears token)
@@ -78,7 +78,7 @@ export const AuthProvider = ({ children }) => {
   const register = async ({ username, email, password }) => {
     setIsLoading(true);
     try {
-      const res = await api.post("/api/register", {
+      const res = await api.post("/api/auth/register", {
         username,
         email,
         password,
@@ -99,7 +99,7 @@ export const AuthProvider = ({ children }) => {
   const login = async ({ email, password }) => {
     setIsLoading(true);
     try {
-      const res = await api.post("/api/login", { email, password });
+      const res = await api.post("/api/auth/login", { email, password });
       const nextToken = res.data.token;
       setToken(nextToken);
       applyAuthHeader(nextToken);
