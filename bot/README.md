@@ -4,6 +4,15 @@
 - Create a Discord application and bot, invite it with scopes: `bot applications.commands`.
 - In the Dev Portal, enable the intents you use. This project uses `Guilds`, `GuildMessages`, and `MessageContent`.
 
+### Quick start
+
+```
+npm install
+# set env in bot/.env (see below)
+npm run deploy:commands
+npm run start
+```
+
 ### Environment
 Create a `.env` file in `bot/` with:
 
@@ -14,13 +23,10 @@ CLIENT_ID=your-application-id
 GUILD_ID=your-guild-id
 ```
 
-### Install and run
-
-```
-npm install
-npm run deploy:commands
-npm run start
-```
+### Scripts
+- `npm run start`: start the bot
+- `npm run dev`: start with auto-reload (nodemon)
+- `npm run deploy:commands`: register slash commands (run this after adding/editing commands)
 
 ### Folder structure
 - `commands/`: One file per slash command exporting `{ data, execute }`.
