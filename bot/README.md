@@ -17,10 +17,9 @@ npm run start
 Create a `.env` file in `bot/` with:
 
 ```
-DISCORD_TOKEN=your-bot-token
-CLIENT_ID=your-application-id
-# Optional for faster iteration (guild-scoped registration)
-GUILD_ID=your-guild-id
+DISCORD_TOKEN=your_bot_token_here
+CLIENT_ID=your_bot_client_id_here
+GUILD_ID=your_test_server_id_here
 ```
 
 ### Scripts
