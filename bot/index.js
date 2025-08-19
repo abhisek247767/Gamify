@@ -1,7 +1,8 @@
 require('dotenv').config();
-const { Client, GatewayIntentBits, Routes, REST } = require('discord.js');
+const fs = require('node:fs');
+const path = require('node:path');
+const { Client, Collection, GatewayIntentBits } = require('discord.js');
 
-// Create a new client instance
 const client = new Client({
   intents: [
     GatewayIntentBits.Guilds,
@@ -10,24 +11,42 @@ const client = new Client({
   ],
 });
 
-const TOKEN = process.env.DISCORD_TOKEN;
+client.commands = new Collection();
 
-// When the client is ready, run this code (only once)
-client.once('ready', () => {
-  console.log(`Ready! Logged in as ${client.user.tag}`);
-});
+// Load command files dynamically
+const commandsPath = path.join(__dirname, 'commands');
+if (fs.existsSync(commandsPath)) {
+  const commandFiles = fs
+    .readdirSync(commandsPath)
+    .filter(fileName => fileName.endsWith('.js'));
 
-// Listen for interactions (slash commands)
-client.on('interactionCreate', async interaction => {
-  if (!interaction.isChatInputCommand()) return;
-
-  const { commandName } = interaction;
-
-  if (commandName === 'ping') {
-    await interaction.reply('Pong!');
+  for (const fileName of commandFiles) {
+    const filePath = path.join(commandsPath, fileName);
+    const command = require(filePath);
+    if (command && command.data && command.execute) {
+      client.commands.set(command.data.name, command);
+    }
   }
-});
+}
 
+// Load event files dynamically
+const eventsPath = path.join(__dirname, 'events');
+if (fs.existsSync(eventsPath)) {
+  const eventFiles = fs
+    .readdirSync(eventsPath)
+    .filter(fileName => fileName.endsWith('.js'));
 
-// Login to Discord with your client's token
-client.login(TOKEN);
+  for (const fileName of eventFiles) {
+    const filePath = path.join(eventsPath, fileName);
+    const event = require(filePath);
+    if (event && event.name && typeof event.execute === 'function') {
+      if (event.once) {
+        client.once(event.name, (...args) => event.execute(...args));
+      } else {
+        client.on(event.name, (...args) => event.execute(...args));
+      }
+    }
+  }
+}
+
+client.login(process.env.DISCORD_TOKEN);
